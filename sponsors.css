@@ -20,3 +20,4 @@
 [data-sponsors-live="true"] [data-show-when="live"]{display:inline}
 [data-sponsors-live="true"] [data-show-when="pending"]{display:none}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.mini .nw{white-space:nowrap}
