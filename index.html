@@ -38,6 +38,7 @@ h1{font-size:clamp(36px,6vw,64px);line-height:1.02;letter-spacing:-.04em;margin:
 @media(max-width:600px){.proof,.grid{grid-template-columns:1fr}}
 .shots{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 54px)/4);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 2px 18px;margin-top:24px}.shots figure{margin:0;scroll-snap-align:start}.shots img{width:100%;height:auto;aspect-ratio:690/1493;border-radius:22px;border:1px solid var(--line);box-shadow:var(--shadow);display:block;background:#0b0b0d}.shots figcaption{font-size:13px;color:var(--muted);margin-top:10px;text-align:center}@media(max-width:700px){.shots{grid-auto-columns:68%}}
 </style>
+<link rel="stylesheet" href="/sponsors.css">
 </head>
 <body>
 <nav class="nav"><div class="navin">
@@ -56,7 +57,7 @@ h1{font-size:clamp(36px,6vw,64px);line-height:1.02;letter-spacing:-.04em;margin:
   <span class="eyebrow">Live on the App Store · iPhone &amp; iPad</span>
   <h1>Ace Security+, CISSP, CEH, and 7 more certs.</h1>
   <p class="lead">CyberSim is a live iOS certification practice app: 10 tracks, 10,000+ exam-style questions, 7 question types — not just multiple choice. Security+ is free. A one-time $9.99 in-app purchase (CyberSim Full Access) unlocks all 10 tracks. No subscriptions. No ads. Data Not Collected.</p>
-  <div class="cta">
+  <div class="sp-cta">
     <a class="btn primary" href="https://apps.apple.com/us/app/cybersim-cert-exam-practice/id6762009652?ct=EXP-20260908-CYBERSIM-SITE-01">Download on the App Store</a>
     <a class="btn secondary" href="/features.html">See what’s inside</a>
   </div>
@@ -95,15 +96,25 @@ h1{font-size:clamp(36px,6vw,64px);line-height:1.02;letter-spacing:-.04em;margin:
 <section class="section"><div class="wrap">
   <h2>Ready to practice?</h2>
   <p class="lead">Start free with Security+. Unlock all 10 tracks with a one-time $9.99 purchase.</p>
-  <div class="cta">
+  <div class="sp-cta">
     <a class="btn primary" href="https://apps.apple.com/us/app/cybersim-cert-exam-practice/id6762009652?ct=EXP-20260908-CYBERSIM-SITE-01">Get CyberSim on the App Store</a>
     <a class="btn secondary" href="/pricing.html">Pricing</a>
   </div>
 </div></section>
 
-<footer class="footer"><div class="wrap footerin">
-  <div>© 2026 Remnant Security Group LLC · CyberSim</div>
-  <div><a href="https://apps.apple.com/us/app/cybersim-cert-exam-practice/id6762009652?ct=EXP-20260908-CYBERSIM-SITE-01">App Store</a> · <a href="/privacy.html">Privacy</a> · <a href="/support.html">Support</a> · <a href="mailto:iantrimble@remnantsecurity.com">iantrimble@remnantsecurity.com</a></div>
+<!-- TODO(sponsors): flip data-sponsors-live to "true" when https://github.com/sponsors/itrimble is live -->
+<section class="sponsors" data-sponsors-live="false" aria-labelledby="sponsors-h"><div class="wrap">
+  <h2 id="sponsors-h">Sponsors</h2>
+  <p class="indie">CyberSim is made by one person at Remnant Security: no ads, no venture money. Sponsors and buyers keep it independent.</p>
+  <p class="empty">No sponsors yet. <strong>Become our first sponsor.</strong></p>
+  <ul class="sponsor-row"><li><a class="sponsor-tile" href="mailto:iantrimble@remnantsecurity.com?subject=CyberSim%20sponsorship" data-live-href="https://github.com/sponsors/itrimble" aria-label="Your logo here: become CyberSim's first sponsor"><span class="slot" aria-hidden="true">+</span><span>Your logo here</span></a></li></ul>
+  <p class="sp-cta">Want to sponsor CyberSim? <span data-show-when="live">Use <a href="mailto:iantrimble@remnantsecurity.com?subject=CyberSim%20sponsorship" data-live-href="https://github.com/sponsors/itrimble">GitHub Sponsors</a> or reach</span><span data-show-when="pending">Reach</span> out directly to <a href="mailto:iantrimble@remnantsecurity.com?subject=CyberSim%20sponsorship">iantrimble@remnantsecurity.com</a>.</p>
+</div></section>
+<footer class="mini"><div class="wrap">
+  <nav aria-label="Footer"><a href="/privacy.html">privacy</a><span aria-hidden="true">·</span><a href="https://github.com/itrimble/cybersim-site" rel="noopener">github</a><span aria-hidden="true">·</span><a href="mailto:iantrimble@remnantsecurity.com">contact</a></nav>
+  <p class="made"><a href="https://remnantsecurity.com">made with <span class="heart" aria-hidden="true">♥</span><span class="sr">love</span></a></p>
+  <p class="legal">© 2026 Remnant Security Group LLC · CyberSim · <a href="https://apps.apple.com/us/app/cybersim-cert-exam-practice/id6762009652?ct=EXP-20260908-CYBERSIM-SITE-01">App Store</a> · <a href="/support.html">Support</a></p>
 </div></footer>
+<script src="/sponsors.js"></script>
 <script src="/posthog.js"></script>
 </body></html>
